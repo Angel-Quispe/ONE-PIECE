@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    
+
+}
+
+nav {
+    background-color: #333;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin:  20px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #1e90ff;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #333;
+}
+
+.container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    border-bottom: 3px solid #1e90ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Imagen de One Piece completa arriba */
+.image-full {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-full img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.characters-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.character-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+}
+
+.character-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.character-info {
+    padding: 15px;
+}
+
+.character-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #1e90ff;
+}
+
+.character-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.story {
+    margin-bottom: 50px;
+}
+
+.story p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.caja {
+    background-color: #f1f1f1;
+    border: 2px solid #1e90ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container iframe {
+    max-width: 560px;
+    height: 315x;
+}
